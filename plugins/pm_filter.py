@@ -402,7 +402,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Updates', url='https://t.me/H6nihere')
             ],[      
             InlineKeyboardButton('Help', callback_data='help'),
-            InlineKeyboardButton('Connect', url='https://t.me/Haniyshani')
+            InlineKeyboardButton('Contact', url='https://t.me/Haniyshani')
             ],[
             InlineKeyboardButton('SUBSCRIBE', url='https://youtube.com/c/H6NIedits')
         ]]
