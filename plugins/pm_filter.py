@@ -460,8 +460,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('Add me to your Group', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
             InlineKeyboardButton('Channel', url='https://t.me/H6niedits'),
             InlineKeyboardButton('Updates', url='https://t.me/H6nihere')
             ],[      
@@ -482,8 +480,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Auto Filter', callback_data='autofilter')
             ],[
             InlineKeyboardButton('Connections', callback_data='coct'),
-            InlineKeyboardButton('Extra', callback_data='extra'),
-            InlineKeyboardButton('Carbon', callback_data='carbon')
+            InlineKeyboardButton('Extra', callback_data='extra')
             ],[
             InlineKeyboardButton('Home', callback_data='start'),
             InlineKeyboardButton('Stats', callback_data='stats')
