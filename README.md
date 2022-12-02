@@ -45,7 +45,10 @@ See<p align="center">
 ## Deploy
 You can deploy this bot anywhere.
 
-
+<details><summary>Deploy To Koyeb</summary>
+<p>
+<a href="https://app.koyeb.com/deploy?type=git&repository=https://github.com/hanihere/Charlie-777/&branch=master&name=charlie777">
+   <img alt="heroku" src="https://img.shields.io/badge/-Deploy%20To%20Koyeb-black?style=for-the-badge&logo=koyeb&logoColor=white"/></a> 
 
 <details><summary>Deploy To Heroku</summary>
 <p>
